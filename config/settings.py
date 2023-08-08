@@ -137,7 +137,6 @@ CORS_ORIGIN_ALLOW_ALL = True
 # Authentication
 AUTHENTICATION_BACKENDS = [
     'users.backends.phone_backend.PhoneNumberAuthBackend',
-    # 'users.backends.email_backend.EmailAuthBackend',
 ]
 
 REST_FRAMEWORK = {
